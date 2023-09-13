@@ -25,3 +25,7 @@ for(let i=0; i<frutas.length; i++){
 const numeros = [50,2,9,85,75,6,1,8];
 let retorno = numeros.toString();
 console.log (retorno); 
+
+const frutas = ['Banana','Maçã','Abacaxi','Pera','Morango'];
+
+

@@ -7,7 +7,7 @@ let nNome = escreverNomes("Senac");
 let sobreNome = escreverNomes("Largo Treze");
 console.log(`Olá ${nNome} seu sobrenome é ${sobreNome}`);
 
-//função como uma expressão
+//função como uma expressãoS
 const area = function (base,altura){
     return  base * altura;
 }
