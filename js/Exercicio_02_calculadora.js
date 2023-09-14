@@ -9,6 +9,7 @@ console.log("Insíra dois números:")
 
 x = 10
 y = 2
+let opcao , op
 
 const calculadora = {
     num1 : 40,
@@ -37,9 +38,25 @@ const calculadora = {
 }
 
 
-switch(calculadora == 1){
-    case 1 : resp = calculadora.soma
+switch (opcao) {
+    case 1:
+    resp = calculadora.soma(x, y);
+    op = "Soma";
+    break;
+    case 2:
+    resp = subtracao(x, y);
+    op = "Subtração";
+    break;
+    case 3:
+    resp = multiplicacao(x, y);
+    op = "Multiplicação";
+    break;
+    case 4:
+    resp = divisao(x, y);
+    op = "Divisão";
+    break;
 }
+
 
 
 
