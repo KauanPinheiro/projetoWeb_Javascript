@@ -40,7 +40,7 @@ calculadora.num1 = element.getElementByid("num1").value ;
 calculadora.num2 = element.getElementByid("num2").value;
 
 v1 = calculadora.num1
-v2 - calculadora.num2
+v2 = calculadora.num2
 
 opcao = element.getElementByid("escolha").value;
 
